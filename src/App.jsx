@@ -8,7 +8,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 import Education from './components/Education/Education';
-
+import Skills from './components/Skills/Skills';
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
       <Intro />
       <Education />
       <Experience />
+      <Skills />
       <Portfolio />
       <Testimonials />
       <Contact />

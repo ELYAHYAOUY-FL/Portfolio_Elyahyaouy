@@ -2,28 +2,29 @@ import React from 'react';
 import './Education.css'; // Import the CSS file
 
 const Education = () => {
-  const educationData = [
-    {
-      year: '2023-2025',
-      degree: 'Master en Sécurité IT et Big Data',
-      institution: 'Faculté des Sciences et Techniques à Tanger'
-    },
-    {
-      year: '2022-2020',
-      degree: 'Licence en Génie Informatique',
-      institution: 'Faculté des Sciences et Techniques à Tanger'
-    },
-    {
-      year: '2020-2019',
-      degree: 'Diplôme d\'Études Universitaires en Mathématiques, Informatique et Physique',
-      institution: 'Faculté des Sciences et Techniques à Tanger'
-    },
-    {
-      year: '2019',
-      degree: 'Baccalauréat en Sciences Physiques',
-      institution: 'licyee omare ibn al khatab'
-    }
-  ];
+    const educationData = [
+        {
+          year: '2023-2025',
+          degree: 'Master\'s in IT Security and Big Data',
+          institution: 'Faculty of Sciences and Techniques in Tangier'
+        },
+        {
+          year: '2022-2020',
+          degree: 'Bachelor\'s in Computer Engineering',
+          institution: 'Faculty of Sciences and Techniques in Tangier'
+        },
+        {
+          year: '2020-2019',
+          degree: 'University Diploma in Mathematics, Computer Science, and Physics',
+          institution: 'Faculty of Sciences and Techniques in Tangier'
+        },
+        {
+          year: '2019',
+          degree: 'High School Diploma in Physical Sciences',
+          institution: 'Ibn Al Khatab High School'
+        }
+    ];
+    
 
   return (
     <div className="edu-section" id="education">
