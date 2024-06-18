@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/cv_meri_gogichashvili.pdf';
+import CV from '../../assets/ElyahyaouyCVFranNW-1.pdf';
 
 const CTA = () => {
   return (
@@ -8,7 +8,7 @@ const CTA = () => {
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">
-        Let's talk
+        Contact me 
       </a>
     </div>
   );

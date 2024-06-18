@@ -8,8 +8,8 @@ const Header = () => {
     <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Meri Gogichashvili</h1>
-        <h5 className="text-light">Full-stack Developer</h5>
+        <h1>El Yahyaouy Imane </h1>
+        <h5 className="text-light">Software engineer and Master's student in IT Security and Big Data</h5>
         <CTA />
         <a href="#contact" className="scroll__down">
           Scroll Down

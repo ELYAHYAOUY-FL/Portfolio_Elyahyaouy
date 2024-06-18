@@ -62,13 +62,16 @@
   }
   
   .edu-timeline-item:nth-child(odd) {
-    left: 0;
+    left: 0%;
   }
   
   .edu-timeline-item:nth-child(even) {
     left: 50%;
   }
-  
+  .edu-timeline-content:nth-child(even) {
+    left: 50%;
+  }
+
   .edu-timeline-item .edu-timeline-content {
     padding: 20px;
     background-color: var(--color-bg-variant);
@@ -77,6 +80,9 @@
     border: 1px solid transparent;
     transition: var(--transition);
   }
+
+ 
+
   
   .edu-timeline-item:hover .edu-timeline-content {
     background: transparent;
@@ -92,6 +98,8 @@
   .edu-timeline-item p {
     margin: 5px 0;
   }
+ 
+
   
   @media screen and (max-width: 1024px) {
     .edu-timeline-item {

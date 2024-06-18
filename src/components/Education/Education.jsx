@@ -21,12 +21,12 @@ const Education = () => {
     {
       year: '2019',
       degree: 'Baccalauréat en Sciences Physiques',
-      institution: ''
+      institution: 'licyee omare ibn al khatab'
     }
   ];
 
   return (
-    <div className="edu-section">
+    <div className="edu-section" id="education">
       <h2>Education</h2>
       <div className="edu-timeline">
         {educationData.map((item, index) => (
