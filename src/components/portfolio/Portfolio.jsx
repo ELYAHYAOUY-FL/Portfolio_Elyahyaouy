@@ -1,9 +1,9 @@
 import React from 'react';
-import IMG2 from '../../assets/img2.png';
+import IMG2 from '../../assets/img1.png';
 import IMG3 from '../../assets/img2.png';
-import IMG4 from '../../assets/img2.png';
+import IMG4 from '../../assets/img3.png';
 import IMG5 from '../../assets/img2.png';
-import IMG6 from '../../assets/img2.png';
+import IMG6 from '../../assets/img5.png';
 
 import './portfolio.css';
 
@@ -18,7 +18,7 @@ const Portfolio = () => {
         'Development of two models: one based on signatures and another on images. Backup and deployment of models via a web interface with Flask and Angular. Using MLOps practices to manage the model lifecycle. Tools: OpenCV, Sklearn, Docker, Kubernetes, GitHub (CI/CD), Flask.',
       technologies: 'OpenCV | Sklearn | Docker | Kubernetes | GitHub CI/CD | Flask | Angular',
       link: 'https://mlops-malware-detection.example.com',
-      github: 'https://github.com/YourGitHubUsername/mlops-malware-detection',
+      github: 'https://github.com/ELYAHYAOUY-FL/Machine-learning_Signature-Image_malware.git',
     },
     {
       id: 3,
