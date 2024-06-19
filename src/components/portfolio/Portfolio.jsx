@@ -1,73 +1,66 @@
 import React from 'react';
 import IMG1 from '../../assets/alc.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG2 from '../../assets/img2.png';
+import IMG3 from '../../assets/img2.png';
+import IMG4 from '../../assets/img2.png';
+import IMG5 from '../../assets/img2.png';
+import IMG6 from '../../assets/img2.png';
 
 import './portfolio.css';
 
 const Portfolio = () => {
   const soloProjects = [
-    {
-      id: 1,
-      title: 'Adventist Learning Center',
-      img: IMG1,
-      description:
-        'Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.',
-      technologies: 'Ruby on Rails | SCSS',
-      link: 'https://adventistlearningcenter-257375ab1970.herokuapp.com/',
-      github: 'https://github.com/Meri-MG/school',
-    },
+   
     {
       id: 2,
-      title: 'FakeStore',
-      img: IMG4,
+      title: 'MLOps Integration for Malware Detection',
+      img: IMG2,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        'Development of two models: one based on signatures and another on images. Backup and deployment of models via a web interface with Flask and Angular. Using MLOps practices to manage the model lifecycle. Tools: OpenCV, Sklearn, Docker, Kubernetes, GitHub (CI/CD), Flask.',
+      technologies: 'OpenCV | Sklearn | Docker | Kubernetes | GitHub CI/CD | Flask | Angular',
+      link: 'https://mlops-malware-detection.example.com',
+      github: 'https://github.com/YourGitHubUsername/mlops-malware-detection',
     },
     {
       id: 3,
-      title: 'To-Do App',
-      img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
-    },
-    {
-      id: 4,
-      title: 'Shelter',
+      title: 'Real-time Churn Prediction',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        'Development of a web application using Apache Kafka Streams to predict customer churn in real-time. Data preprocessing with PySpark Mlib, training multiple models, saving the best model for predictions, storing results in MongoDB, and displaying via Flask or Django.',
+      technologies: 'Apache Kafka Streams | PySpark Mlib | Flask | Django | MongoDB',
+     
+      github: 'https://github.com/YourGitHubUsername/real-time-churn-prediction',
+    },
+  
+    {
+      id: 4,
+      title: 'Eduviva Web Application',
+      img: IMG4,
+      description:
+        'Secure design and development of a web application for searching discount opportunities for foreign students, based on a microservices architecture using Spring Boot, Spring Security, Angular, REST API, and CSRF.',
+      technologies: 'Spring Boot | Spring Security | Angular | REST API | CSRF',
+      link: 'https://eduviva.example.com',
+      github: 'https://github.com/YourGitHubUsername/eduviva-web-app',
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'Network Architecture Simulation',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+        'Design and implementation of a complex network architecture with DMZ, firewall, IDS/IPS using Packet Tracer, GNS3, and VMware.',
+      technologies: 'Packet Tracer | GNS3 | VMware',
+      link: 'https://network-architecture-simulation.example.com',
+      github: 'https://github.com/YourGitHubUsername/network-architecture-simulation',
     },
     {
       id: 6,
-      title: 'Math Resource',
+      title: 'Furnishings E-commerce Site',
       img: IMG6,
       description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
+        'Secure design and development of an e-commerce site for Furnishings using Laravel, JavaScript, and Responsive Design, with a focus on protecting sensitive user data and preventing vulnerabilities.',
+      technologies: 'Laravel | JavaScript | Responsive Design',
+      link: 'https://furnishings-ecommerce.example.com',
+      github: 'https://github.com/YourGitHubUsername/furnishings-ecommerce',
     },
   ];
 
@@ -96,14 +89,7 @@ const Portfolio = () => {
               >
                 GitHub
               </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
+           
             </div>
           </article>
         ))}
