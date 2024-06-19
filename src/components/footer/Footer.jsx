@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { FaAngellist } from 'react-icons/fa'
 import './footer.css';
 
 const Footer = () => {
@@ -21,13 +20,12 @@ const Footer = () => {
         <li><a href="#experience">Experinece</a></li>
         <li><a href="#skils">Skills</a></li>
         <li><a href="#portfolio">Projects</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#testmonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href="" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
-      <a href="https://github.com/Meri-MG" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><FaAngellist /></a>
+      <a href="https://www.linkedin.com/in/imane-el-yahyaouy/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
+      <a href="https://github.com/ELYAHYAOUY-FL" target="_blank" rel="noreferrer" ><FaGithub /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; ET {getYear()}. All rights reserved.</small>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
 import { Pagination } from 'swiper';
 import { RiFeedbackFill } from "react-icons/ri";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -37,7 +36,7 @@ const Testimonials = () => {
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
           <div className="client__avatar">
-            <a href="#">
+            <a href="https://mohamed el mrabet">
               <RiFeedbackFill />
             </a>
           </div>

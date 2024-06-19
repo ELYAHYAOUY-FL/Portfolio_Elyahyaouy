@@ -1,24 +1,25 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md';
 import './contact.css';
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
   const formRef = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_9mc4d9o',
+        'template_6rqyv8h',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        '30Q31FxrcIstbbQR_'
       )
       .then(
         (result) => {
           console.log(result.text);
+          setMessage(true);
         },
         (error) => {
           console.log(error.text);
@@ -27,6 +28,7 @@ const Contact = () => {
 
     e.target.reset();
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -44,17 +46,17 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Full Name"
-            name="user_name"
+            name="name"
             required
           />
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
-            name="user_email"
+            name="email"
             required
           />
           <textarea
-            placeholder="Your message"
+            placeholder="Your Message"
             rows="7"
             name="message"
             required
